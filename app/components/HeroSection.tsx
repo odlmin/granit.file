@@ -8,7 +8,7 @@ export default function HeroSection() {
       {/* Фоновое изображение через Image */}
       <Image
         src="/images/hero.webp"  // Путь к изображению
-        alt="Fancy Football Hero"
+        alt="Fancy LuckyLoop"
         layout="fill"            // Заполняет всю секцию
         objectFit="cover"        // Обрезка по размеру контейнера
         priority={true}          // Приоритетная загрузка изображения
