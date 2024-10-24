@@ -13,14 +13,14 @@ export default function HomePage() {
       window.dataLayer.push(args);
     }
     gtag('js', new Date());
-    gtag('config', 'AW-');
+    gtag('config', 'AW-16710077823');
   }, []);
 
   return (
     <>
       <Script
         id="gtag-async"
-        src="https://www.googletagmanager.com/gtag/js?id=AW-"
+        src="https://www.googletagmanager.com/gtag/js?id=AW-16710077823"
         strategy="afterInteractive"
       />
       <Script
@@ -31,7 +31,7 @@ export default function HomePage() {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-');
+            gtag('config', 'AW-16710077823');
           `,
         }}
       />
