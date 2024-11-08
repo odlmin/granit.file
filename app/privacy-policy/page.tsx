@@ -2,89 +2,89 @@
 export default function PrivacyPolicy() {
   return (
     <section className="py-16 px-6 max-w-7xl mx-auto text-left">
-      <h1 className="text-4xl font-bold text-center mb-6">Retningslinjer for personvern</h1>
+      <h1 className="text-4xl font-bold text-center mb-6">Privacy Policy</h1>
 
       <div className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Introduksjon</h2>
+        <h2 className="text-2xl font-semibold mb-4">Introduction</h2>
         <p className="text-lg text-gray-700">
-          Vi verdsetter ditt personvern og er forpliktet til å beskytte dine personopplysninger. Disse retningslinjene for personvern forklarer hvordan vi samler inn, bruker og beskytter informasjonen du gir oss når du bruker vårt nettsted.
+        We value your privacy and are committed to protecting your personal data. This privacy policy sets out how we collect, use and protect the information that you give us when you use our website.
         </p>
       </div>
 
       <div className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Hvilken informasjon samler vi inn?</h2>
+        <h2 className="text-2xl font-semibold mb-4">What information do we collect?</h2>
         <ul className="list-disc list-inside text-lg text-gray-700 space-y-4">
           <li>
-            <strong>Personlig identifiserbar informasjon:</strong> Navn, e-postadresse, telefonnummer, etc., som du gir oss frivillig gjennom skjemaer eller kommunikasjon med oss.
+            <strong>Personally identifiable information:</strong> Name, email address, phone number, etc., which you provide to us voluntarily through forms or communications with us.
           </li>
           <li>
-            <strong>Automatisk innsamlet informasjon:</strong> IP-adresser, nettleseropplysninger, enhetstype og besøksstatistikk via informasjonskapsler og andre sporingsteknologier.
+            <strong>Automatically collected information:</strong> IP addresses, browser information, device type and visitor statistics via cookies and Other Tracking Technologies.
           </li>
           <li>
-            <strong>Bruksinformasjon:</strong> Data om hvordan du bruker vårt nettsted, hvilke sider du besøker, og hvilke funksjoner du bruker.
+            <strong>Instructions for use:</strong> Data about how you use our website, which pages you visit, and which features you use.
           </li>
         </ul>
       </div>
 
       <div className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Hvordan bruker vi informasjonen din?</h2>
+        <h2 className="text-2xl font-semibold mb-4">How do we use your information?</h2>
         <p className="text-lg text-gray-700">
-          Informasjonen vi samler inn brukes til å:
+        The information we collect is used to::
         </p>
         <ul className="list-disc list-inside text-lg text-gray-700 space-y-4">
-          <li>Forbedre brukeropplevelsen på vårt nettsted</li>
-          <li>Svare på dine henvendelser og gi kundestøtte</li>
-          <li>Forstå hvordan våre brukere interagerer med nettstedet</li>
-          <li>Levere målrettet innhold og annonser</li>
-          <li>Overholde juridiske krav og forskrifter</li>
+          <li>Improve the user experience on our website</li>
+          <li>Respond to your inquiries and provide customer support</li>
+          <li>Understand how our users interact with the site</li>
+          <li>Deliver targeted content and ads</li>
+          <li>Comply with legal requirements and regulations</li>
         </ul>
       </div>
 
       <div className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Hvordan beskytter vi informasjonen din?</h2>
+        <h2 className="text-2xl font-semibold mb-4">How do we protect your information?</h2>
         <p className="text-lg text-gray-700">
-          Vi implementerer en rekke sikkerhetstiltak for å beskytte dine personlige opplysninger. Dette inkluderer kryptering av data, sikre servere og begrenset tilgang til personopplysninger for kun autorisert personell.
+        We implement a variety of security measures to help protect your personal information. This includes encryption of data, secure servers and restricted access to personal data by only authorized personnel.
         </p>
       </div>
 
       <div className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Deling av informasjon</h2>
+        <h2 className="text-2xl font-semibold mb-4">Sharing of information</h2>
         <p className="text-lg text-gray-700">
-          Vi deler ikke dine personopplysninger med tredjeparter, med unntak av:
+        We do not share your personal information with third parties, except:
         </p>
         <ul className="list-disc list-inside text-lg text-gray-700 space-y-4">
-          <li>Tjenesteleverandører som hjelper oss med å drive vårt nettsted</li>
-          <li>Overholdelse av lovmessige krav, som rettskjennelser eller myndighetsforespørsler</li>
-          <li>Sammen med partnere for markedsføringsformål, men kun med ditt samtykke</li>
+          <li>Service providers who help us operate our website</li>
+          <li>Compliance with legal requirements, such as court orders or government requests</li>
+          <li>With partners for marketing purposes, but only with your consent</li>
         </ul>
       </div>
 
       <div className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Dine rettigheter</h2>
+        <h2 className="text-2xl font-semibold mb-4">Your rights</h2>
         <p className="text-lg text-gray-700">
-          Du har rett til å:
+        You have the right to:
         </p>
         <ul className="list-disc list-inside text-lg text-gray-700 space-y-4">
-          <li>Be om tilgang til dine personopplysninger</li>
-          <li>Be om retting eller sletting av dine personopplysninger</li>
-          <li>Begrense eller motsette deg behandlingen av dine personopplysninger</li>
-          <li>Overføre dine personopplysninger til en annen tjenesteleverandør</li>
+          <li>Request access to your personal data</li>
+          <li>Request correction or deletion of your personal data</li>
+          <li>Restrict or object to the processing of your personal data</li>
+          <li>Transfer your personal data to another service provider</li>
         </ul>
         <p className="text-lg text-gray-700 mt-4">
-          For å utøve disse rettighetene, vennligst <a href="/contact" className="text-blue-600 hover:underline">kontakt oss</a>.
+        To exercise these rights, please <a href="/contact" className="text-blue-600 hover:underline">contact us</a>.
         </p>
       </div>
 
       <div className="mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Endringer i personvernreglene</h2>
+        <h2 className="text-2xl font-semibold mb-4">Changes to our Privacy Policy</h2>
         <p className="text-lg text-gray-700">
-          Vi forbeholder oss retten til å oppdatere disse retningslinjene for personvern fra tid til annen. Eventuelle endringer vil bli publisert på denne siden, og vi oppfordrer deg til å gjennomgå dem regelmessig.
+        We reserve the right to update this privacy policy from time to time. Any changes will be posted on this page and we encourage you to review them regularly.
         </p>
       </div>
 
       <div className="mt-16 text-center">
         <p className="text-lg text-gray-700">
-          Har du spørsmål om vår personvernpolicy? <a href="/contact" className="text-blue-600 hover:underline">Kontakt oss</a>.
+        Do you have any questions about our Privacy Policy? <a href="/contact" className="text-blue-600 hover:underline">Contact us</a>.
         </p>
       </div>
     </section>

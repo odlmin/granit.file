@@ -16,11 +16,11 @@ export default function HeroSection() {
       />
       
       <div className="bg-black bg-opacity-50 text-white p-5 rounded-2xl md:p-20 mx-5">
-        <h1 className="text-4xl font-bold uppercase">LuckyLoop Spilleautomat Gratis</h1>
-        <p className="text-lg mt-2">Din favoritt sosiale kasinoopplevelse på nettstedet vårt!</p>
+        <h1 className="text-4xl font-bold uppercase">Granit Slot Machine</h1>
+        <p className="text-lg mt-2">Your Favorite Social Casino experience on our site!</p>
 	   <Link href="/game" passHref>
         <button className="mt-4 px-9 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded uppercase">
-          Spill Nå
+        Play Now
 	   </button>
 	   </Link>
       </div>

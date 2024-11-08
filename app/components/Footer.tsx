@@ -5,11 +5,11 @@ import Image from 'next/image';
 
 export default function Footer() {
   const links = [
-    { name: 'Ansvarsfraskrivelse', url: '/about' },
-    { name: 'Kontakter', url: '/contact' },
-    { name: 'Retningslinjer for informasjonskapsler', url: '/cookies' },
-    { name: 'Retningslinjer for personvern', url: '/privacy-policy' },
-    { name: 'Vilkår og betingelser', url: '/terms' },
+    { name: 'Disclaimer', url: '/about' },
+    { name: 'Contacts', url: '/contact' },
+    { name: 'Cookie policy', url: '/cookies' },
+    { name: 'Privacy Policy', url: '/privacy-policy' },
+    { name: 'Terms and conditions', url: '/terms' },
   ];
 	
   return (
@@ -32,7 +32,7 @@ export default function Footer() {
           {/* Дисклеймер (по центру) */}
           <div className="flex-grow px-5 mx-5 text-sm text-center text-gray-400">
             <p>
-              Dette nettstedet er beregnet på brukere over 18 år og tilbyr kun sosiale kasinospill. Det er ingen mulighet til å vinne ekte penger i spillene våre.
+            This site is intended for users over the age of 18 and offers only social casino games. There is no possibility to win Real Money in our games.
             </p>
           </div>
 

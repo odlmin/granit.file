@@ -42,21 +42,21 @@ export default function Contacts() {
 
   return (
     <section className="py-16 px-6 max-w-4xl mx-auto text-left">
-      <h1 className="text-4xl font-bold mb-6">Kontakter oss</h1>
+      <h1 className="text-4xl font-bold mb-6">Contact us</h1>
       
       <p className="mb-6 text-gray-300">
-        Hvis du har spørsmål eller ønsker å kontakte oss, fyll ut skjemaet nedenfor, så svarer vi deg så raskt som mulig.
+      If you have any questions or would like to contact us, please fill out the form below and we will get back to you as soon as possible.
       </p>
 
       {successMessage && (
         <div className="mb-6 p-4 text-green-800 bg-green-100 rounded-lg">
-          Meldingen din ble sendt! Vi svarer deg så raskt som mulig.
+          Your message was successfully sent! We'll get back to you as soon as possible.
         </div>
       )}
 
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
-          <label htmlFor="name" className="block text-sm font-medium text-gray-200">Navn</label>
+          <label htmlFor="name" className="block text-sm font-medium text-gray-200">Name</label>
           <input
             type="text"
             id="name"
@@ -65,12 +65,12 @@ export default function Contacts() {
             onChange={handleChange}
             required
             className="text-gray-700 mt-1 block w-full px-4 py-2 border border-gray-700 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-            placeholder="Ditt navn"
+            placeholder="Your name"
           />
         </div>
 
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700">E-post</label>
+          <label htmlFor="email" className="block text-sm font-medium text-gray-700">E-mail</label>
           <input
             type="email"
             id="email"
@@ -79,12 +79,12 @@ export default function Contacts() {
             onChange={handleChange}
             required
             className="text-gray-700 mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-            placeholder="Din e-postadresse"
+            placeholder="Your email address"
           />
         </div>
 
         <div>
-          <label htmlFor="subject" className="block text-sm font-medium text-gray-700">Tema</label>
+          <label htmlFor="subject" className="block text-sm font-medium text-gray-700">Theme</label>
           <input
             type="text"
             id="subject"
@@ -93,12 +93,12 @@ export default function Contacts() {
             onChange={handleChange}
             required
             className="text-gray-700 mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-            placeholder="Tema for meldingen"
+            placeholder="Theme of the message"
           />
         </div>
 
         <div>
-          <label htmlFor="message" className="block text-sm font-medium text-gray-700">Melding</label>
+          <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
           <textarea
             id="message"
             name="message"
@@ -107,7 +107,7 @@ export default function Contacts() {
             required
             rows={5}
             className="text-gray-700 mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
-            placeholder="Din melding"
+            placeholder="Your message"
           />
         </div>
 
@@ -115,7 +115,7 @@ export default function Contacts() {
           type="submit"
           className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md"
         >
-          Send melding
+          Send message
         </button>
       </form>
     </section>
