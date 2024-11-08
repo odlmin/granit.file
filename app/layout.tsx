@@ -17,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Granit - Free Slot Machine Games",
-  description: "Experience the thrill of the LuckyLoops slot machine. Play for free for fun on our social casino app!",
+  description: "Experience the thrill of the Granit slot machine. Play for free for fun on our social casino app!",
 };
 
 export default function RootLayout({
