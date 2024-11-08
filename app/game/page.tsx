@@ -7,7 +7,7 @@ export default function Game() {
   const [balance, setBalance] = useState(1000);
   const [betAmount, setBetAmount] = useState(10);
   const [message, setMessage] = useState('');
-  const slotSymbols = ['⚽', '🏀', '🎾', '🎯', '🏆'];
+  const slotSymbols = ['🧚‍♂️', '✨', '🐉', '🏰', '📜'];
   const placeholderImage = '/images/jack.png'; // Placeholder картинка
   const [slotValues, setSlotValues] = useState(Array(15).fill(placeholderImage)); // Изначальные значения
   const [isSpinning, setIsSpinning] = useState(false); // Состояние спиннера
