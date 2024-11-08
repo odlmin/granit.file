@@ -50,7 +50,7 @@ export default function Contacts() {
 
       {successMessage && (
         <div className="mb-6 p-4 text-green-800 bg-green-100 rounded-lg">
-          Your message was successfully sent! We'll get back to you as soon as possible.
+          Your message was successfully sent! We will get back to you as soon as possible.
         </div>
       )}
 
