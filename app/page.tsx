@@ -42,7 +42,7 @@ export default function HomePage() {
         <section className="py-16 px-6 w-full text-center bg-[url('/images/halloween-bats.webp')] bg-repeat bg-contain border-y-8 border-rose-600">
           <h2 className="text-3xl font-semibold text-white uppercase">Granit Slots – free heroic slot machine for fun!</h2>
           <p className="mt-6 text-gray-300">
-          Experience the thrill of football combined with classic slots! Granit Slot free social casino experience gives you unforgettable hours of entertainment and fun.
+          Experience the thrill of fairy tale combined with classic slots! Granit Slot free social casino experience gives you unforgettable hours of entertainment and fun.
           </p>
           <Image
             src="/images/lucky-gameplay.webp"
@@ -59,7 +59,7 @@ export default function HomePage() {
         </section>
         {/* Footer Section */}
         <section className="px-5 bg-yellow-400 py-12 text-center text-white w-full">
-          <h2 className="text-4xl font-bold text-red-900 uppercase">Dysleimer:</h2>
+          <h2 className="text-4xl font-bold text-red-900 uppercase">Disclaimer:</h2>
           <h3 className="text-2xl font-bold text-cyan-950">You must be at least 18 years old to play.</h3>
           <h3 className="text-2xl font-bold mt-4 max-w-xl mx-auto text-cyan-950">
           This is a game intended for entertainment purposes only and there is no opportunity to win real money, prizes or bets.
