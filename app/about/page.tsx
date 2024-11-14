@@ -6,7 +6,7 @@ export default function AboutUs() {
     <section className="py-16 px-6 max-w-7xl mx-auto text-left">
       {/* Our Story Section */}
       <div className="mb-12">
-        <h1 className="text-4xl font-bold text-center mb-6">Om Oss</h1>
+        <h1 className="text-4xl font-bold text-center mb-6">About Us</h1>
         <p className="text-lg text-gray-400 mb-6">
         We are dedicated to providing you with an exceptional experience at our social casino. Our team has years of experience in both technology and entertainment, and we are passionate about bringing football inspired slots to all the fans out there.
         </p>
